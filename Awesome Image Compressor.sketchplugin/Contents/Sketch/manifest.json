@@ -1,0 +1,24 @@
+{
+  "identifier": "com.naoyawatanabe.awesome-image-compressor",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Awesome Image Compressor",
+      "identifier": "compress-assets",
+      "script": "compress-assets.js",
+      "handlers": {
+        "actions": {
+          "ExportSlices": "onExportSlices"
+        }
+      }
+    }
+  ],
+  "version": "1.0.0",
+  "description": "Compress exported image assets",
+  "name": "Awesome Image Compressor",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Naoya Watanabe",
+  "authorEmail": "hello@showandtell.jp"
+}

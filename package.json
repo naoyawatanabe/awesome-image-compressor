@@ -1,0 +1,31 @@
+{
+  "name": "awesome-image-compressor",
+  "description": "Compress exported image assets",
+  "license": "GPL v3",
+  "author": "Naoya Watanabe <hello@showandtell.jp>",
+  "version": "1.0.0",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "skpm": {
+    "name": "Awesome Image Compressor",
+    "manifest": "src/manifest.json",
+    "main": "Awesome Image Compressor.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ]
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "cd assets && npm i && cd .. && npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.5.3"
+  },
+  "dependencies": {
+    "@skpm/child_process": "^0.2.3",
+    "sketch-utils": "^0.1.2"
+  }
+}

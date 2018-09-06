@@ -1,0 +1,17 @@
+{
+  "identifier": "com.naoyawatanabe.awesome-image-compressor",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Awesome Image Compressor",
+      "identifier": "compress-assets",
+      "script": "./compress-assets.js",
+      "handlers": {
+        "actions": {
+          "ExportSlices": "onExportSlices"
+        }
+      }
+    }
+  ]
+}
