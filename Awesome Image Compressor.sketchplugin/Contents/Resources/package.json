@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "pngquant-bin": "^5.0.0",
+    "jpegoptim-bin": "^4.0.0"
+  }
+}
