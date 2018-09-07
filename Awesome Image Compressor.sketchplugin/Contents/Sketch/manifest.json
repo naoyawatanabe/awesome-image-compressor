@@ -18,7 +18,7 @@
   "description": "Compress exported image assets",
   "name": "Awesome Image Compressor",
   "disableCocoaScriptPreprocessor": true,
-  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "appcast": "https://raw.githubusercontent.com/naoyawatanabe/awesome-image-compressor/master/.appcast.xml",
   "author": "Naoya Watanabe",
   "authorEmail": "hello@showandtell.jp"
 }
