@@ -14,7 +14,7 @@
       }
     }
   ],
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Compress exported image assets",
   "name": "Awesome Image Compressor",
   "disableCocoaScriptPreprocessor": true,
