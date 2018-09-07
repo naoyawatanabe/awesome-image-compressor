@@ -3,7 +3,7 @@
   "description": "Compress exported image assets",
   "license": "GPL v3",
   "author": "Naoya Watanabe <hello@showandtell.jp>",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "repository": {
     "type": "git",
     "url": "git@github.com:naoyawatanabe/awesome-image-compressor.git"
