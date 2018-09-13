@@ -6,7 +6,7 @@ Please note that the compression is lossy.
 
 ## Installation 
 
-* Download [Awesome Image Compressor](https://github.com/naoyawatanabe/awesome-image-compressor/releases/download/v1.0.0/AwesomeImageCompressor.sketchplugin.zip) & unzip it.
+* Download [Awesome Image Compressor](https://github.com/naoyawatanabe/awesome-image-compressor/releases/download/v1.0.3/Awesome.Image.Compressor.sketchplugin.zip) & unzip it.
 * Double click Awesome Image Compressor.sketchplugin to install the Plugin.
 
 
